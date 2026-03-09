@@ -34,7 +34,7 @@ in rec {
       copyDesktopItems
     ];
     src = nixpkgs.fetchzip {
-      sha256 = "sha256-kG18xkGRgApYObhmMKRfV33KOfOz9nMqX1GoE+zOT6w=";
+      sha256 = "sha256-KrPSl2hA5NSwqbQEZmswC7CwycJOwRrScCFL7aJUXVY=";
       stripRoot = false;
       url = "https://download.mikrotik.com/routeros/winbox/${version}/WinBox_Linux.zip";
     };
