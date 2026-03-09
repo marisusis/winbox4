@@ -18,6 +18,7 @@ in rec {
     pname = name;
     version = "4.0.1";
     buildInputs = with nixpkgs; [
+      dbus
       fontconfig
       freetype
       libGL
